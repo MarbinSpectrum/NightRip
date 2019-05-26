@@ -1,0 +1,362 @@
+fileFormatVersion: 2
+guid: 515d8b6f19aeb0e40aa02e5d47035c4b
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: The Summoner idle animation_0
+    21300002: The Summoner idle animation_1
+    21300004: The Summoner idle animation_2
+    21300006: The Summoner idle animation_3
+    21300008: The Summoner idle animation_4
+    21300010: The Summoner idle animation_5
+    21300012: The Summoner idle animation_6
+    21300014: The Summoner idle animation_7
+    21300016: The Summoner idle animation_8
+    21300018: The Summoner idle animation_9
+    21300020: The Summoner idle animation_10
+    21300022: The Summoner idle animation_11
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 60
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: The Summoner idle animation_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 70
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5432649, y: 0.7064919}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85fef2ad1971cc54681cf49669de23b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Summoner idle animation_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 76
+        height: 80
+      alignment: 9
+      pivot: {x: 0.4999999, y: 0.70477116}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e401849f5cd01f545ad64fca5a746b6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Summoner idle animation_2
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 65
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5084712, y: 0.71509576}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08fa7dbef150324ebbf7e463c45ab82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Summoner idle animation_3
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 0
+        width: 64
+        height: 80
+      alignment: 9
+      pivot: {x: 0.6118493, y: 0.70821273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679541a6425a0c540902ea130632a9e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Summoner idle animation_4
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 0
+        width: 73
+        height: 80
+      alignment: 9
+      pivot: {x: 0.56411576, y: 0.7064919}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02c5869f2ad38441be86e57beccf812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Summoner idle animation_5
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 0
+        width: 71
+        height: 80
+      alignment: 9
+      pivot: {x: 0.47673315, y: 0.71509576}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fee7e91025fa0d488e61b70b0058c88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Summoner idle animation_6
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 0
+        width: 63
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5043693, y: 0.7064919}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e0e0098f58a434584bb944308e7a1a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Summoner idle animation_7
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 0
+        width: 59
+        height: 80
+      alignment: 9
+      pivot: {x: 0.52799857, y: 0.7064919}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11716cfeee400564da7b88255b5e113e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Summoner idle animation_8
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 0
+        width: 62
+        height: 80
+      alignment: 9
+      pivot: {x: 0.56216925, y: 0.72025806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40b549f9c9b5eb40b05a05a955db9f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Summoner idle animation_9
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 0
+        width: 77
+        height: 80
+      alignment: 9
+      pivot: {x: 0.48212147, y: 0.70993346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595652fd0e5a68649bfd880babf3f1d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Summoner idle animation_10
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 0
+        width: 49
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5505695, y: 0.7064919}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c325da9c810541449369cd938c81462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Summoner idle animation_11
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 0
+        width: 70
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5845625, y: 0.7064919}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bce99282b0efbb4283aac3750dd8861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c9195be72ce53da409b9d3a237fac37a
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

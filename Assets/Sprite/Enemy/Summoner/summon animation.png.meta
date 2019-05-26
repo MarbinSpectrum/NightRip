@@ -1,0 +1,409 @@
+fileFormatVersion: 2
+guid: 249be4f504afa7d4b9e78f3204edcdf4
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: summon animation_0
+    21300002: summon animation_1
+    21300004: summon animation_2
+    21300006: summon animation_3
+    21300008: summon animation_4
+    21300010: summon animation_5
+    21300012: summon animation_6
+    21300014: summon animation_7
+    21300016: summon animation_8
+    21300018: summon animation_9
+    21300020: summon animation_10
+    21300022: summon animation_11
+    21300024: summon animation_12
+    21300026: summon animation_13
+    21300028: summon animation_14
+    21300030: summon animation_15
+    21300032: summon animation_16
+    21300034: summon animation_17
+    21300036: summon animation_18
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 60
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: summon animation_0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 18
+        width: 24
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5947663, y: 0.77292556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080dbaa20fbfae8438cc5f4dccc8ee29
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summon animation_1
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 19
+        width: 36
+        height: 50
+      alignment: 9
+      pivot: {x: 0.71945786, y: 0.77053154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8482aabd28d89449750e9936d12681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summon animation_2
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 11
+        width: 62
+        height: 57
+      alignment: 9
+      pivot: {x: 0.8417363, y: 0.81501114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d0fa9a5b6381b4cbae4fa9149e7d40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summon animation_3
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 12
+        width: 61
+        height: 57
+      alignment: 9
+      pivot: {x: 0.8364768, y: 0.8096101}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7242fd504d14b0488ca6c622bbd2921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summon animation_5
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 11
+        width: 62
+        height: 57
+      alignment: 9
+      pivot: {x: 0.84033155, y: 0.8365327}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b91008b52d1114797a91954c82e70d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summon animation_6
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 11
+        width: 63
+        height: 57
+      alignment: 9
+      pivot: {x: 0.8471079, y: 0.8365327}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb6ddc11a14a84439273957b91d412b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summon animation_8
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 11
+        width: 63
+        height: 56
+      alignment: 9
+      pivot: {x: 0.8471079, y: 0.832266}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baefe42aab65c834f9093a7fa657f705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summon animation_9
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 10
+        width: 63
+        height: 57
+      alignment: 9
+      pivot: {x: 0.84101796, y: 0.8129754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e468cd4204d1d44b46fb3865d5fd17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summon animation_11
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 11
+        width: 63
+        height: 55
+      alignment: 9
+      pivot: {x: 0.84101796, y: 0.8278441}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f682e5bdffa488f4fbaf22543967447f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summon animation_12
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 11
+        width: 62
+        height: 57
+      alignment: 9
+      pivot: {x: 0.84033006, y: 0.819706}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17fefcbebf0681f4b80128d46847c0f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summon animation_13
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 12
+        width: 60
+        height: 56
+      alignment: 9
+      pivot: {x: 0.83249307, y: 0.832266}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9be26ef13f5bbc4b8c5428436af4283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summon animation_15
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 12
+        width: 57
+        height: 57
+      alignment: 9
+      pivot: {x: 0.8264331, y: 0.8163408}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a029d6bc20d2eb4483c264e8797a781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summon animation_17
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 19
+        width: 37
+        height: 48
+      alignment: 9
+      pivot: {x: 0.73329616, y: 0.8037207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6857f8d39c20f468c23fc0a1608cdb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: summon animation_18
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 18
+        width: 35
+        height: 48
+      alignment: 9
+      pivot: {x: 0.7082589, y: 0.8077171}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a33942265973954a903e15bfa922e99
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e09759d9b4790fb4e94991ec35c05948
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

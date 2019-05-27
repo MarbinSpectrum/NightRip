@@ -20,7 +20,7 @@ public class TriggerScript : MonoBehaviour
     [Header("보스전여부")]
     public bool bossbgm;
     public string bossname;
-
+    public int bosshp;
     [Header("진동여부")]
     public bool vibration;
 
@@ -60,6 +60,7 @@ public class TriggerScript : MonoBehaviour
             if(GameManager.Boss_UI)
             {
                 GameManager.Boss_UI.SetActive(true);
+                GameManager.Boss_max_hp = bosshp;
                 GameManager.Boss_now_hp = GameManager.Boss_max_hp;
                 GameManager.BossHp_UI.GetComponent<RectTransform>().sizeDelta = new Vector2(GameManager.Boss_hp_bar_width, GameManager.BossHpAni_UI.GetComponent<RectTransform>().sizeDelta.y);
                 GameManager.BossHpAni_UI.GetComponent<RectTransform>().sizeDelta = new Vector2(GameManager.Boss_hp_bar_width, GameManager.BossHpAni_UI.GetComponent<RectTransform>().sizeDelta.y);

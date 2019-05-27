@@ -96,7 +96,7 @@ public class MonsterScript : MonoBehaviour
         {
             if (isground)
             {
-                transform.localScale = transform.position.x > player.transform.position.x ? new Vector3(+1, 1, 1) : transform.position.x < player.transform.position.x ? new Vector3(-1, 1, 1) : transform.localScale;
+                transform.localScale = transform.position.x > player.transform.position.x ? new Vector3(+Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z) : transform.position.x < player.transform.position.x ? new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z) : transform.localScale;
             }
 
             if (this_type == Type.Witch)

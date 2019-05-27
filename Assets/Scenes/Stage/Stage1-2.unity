@@ -372,6 +372,11 @@ PrefabInstance:
       propertyPath: TriggerList.Array.data[3]
       value: 
       objectReference: {fileID: 528658172}
+    - target: {fileID: 4275980272917220892, guid: 4c64c80dc3ea8534f8cd458fb699cef4,
+        type: 3}
+      propertyPath: bosshp
+      value: 125
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c64c80dc3ea8534f8cd458fb699cef4, type: 3}
 --- !u!4 &2927974 stripped
@@ -31000,6 +31005,7 @@ MonoBehaviour:
   this_type: 2
   bossbgm: 0
   bossname: 
+  bosshp: 0
   vibration: 0
   stopbgm: 0
   delay: 0
@@ -31096,6 +31102,7 @@ MonoBehaviour:
   this_type: 2
   bossbgm: 0
   bossname: 
+  bosshp: 0
   vibration: 1
   stopbgm: 1
   delay: 1.2
@@ -31248,6 +31255,7 @@ MonoBehaviour:
   this_type: 2
   bossbgm: 0
   bossname: 
+  bosshp: 0
   vibration: 0
   stopbgm: 0
   delay: 0

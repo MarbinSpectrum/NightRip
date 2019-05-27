@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{399F48A2-2E03-40D9-DF02-63AEEE353B99}</ProjectGuid>
+    <ProjectGuid>{3EB3F621-F834-7490-B950-F65AFD505829}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -67,6 +67,7 @@
     <Compile Include="Assets\Script\Maker\Player_Maker.cs" />
     <Compile Include="Assets\Script\Manager\EffectManager.cs" />
     <Compile Include="Assets\Script\Manager\GameManager.cs" />
+    <Compile Include="Assets\Script\Manager\SlimeScript.cs" />
     <Compile Include="Assets\Script\Manager\SoundManager.cs" />
     <Compile Include="Assets\Script\Manager\StageManager.cs" />
     <Compile Include="Assets\Script\Object\AttackScript.cs" />
@@ -82,19 +83,19 @@
     <Compile Include="Assets\Script\UI\TutorialScript.cs" />
     <None Include="Assets\Material\Mirror.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>E:/Program Files/Unity/Test/Platform Asset/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>E:/Program Files/Unity/Test/NightRip/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>E:/Program Files/Unity/Test/Platform Asset/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>E:/Program Files/Unity/Test/NightRip/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>E:/Program Files/Unity/Test/Platform Asset/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>E:/Program Files/Unity/Test/NightRip/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>E:/Program Files/Unity/Test/Platform Asset/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>E:/Program Files/Unity/Test/NightRip/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>E:/Program Files/Unity/Test/Platform Asset/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>E:/Program Files/Unity/Test/NightRip/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -298,16 +299,16 @@
       <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="XInputDotNetPure">
-      <HintPath>E:/Program Files/Unity/Test/Platform Asset/Assets/Plugins/XInputDotNetPure.dll</HintPath>
+      <HintPath>E:/Program Files/Unity/Test/NightRip/Assets/Plugins/XInputDotNetPure.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>E:/Program Files/Unity/Test/Platform Asset/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>E:/Program Files/Unity/Test/NightRip/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>E:/Program Files/Unity/Test/Platform Asset/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>E:/Program Files/Unity/Test/NightRip/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>E:/Program Files/Unity/Test/Platform Asset/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>E:/Program Files/Unity/Test/NightRip/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>E:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

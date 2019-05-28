@@ -558,6 +558,8 @@ public class TitleScript : MonoBehaviour
             return "<size=75>洞窟</size>(공중유적)";
         else if (name.Equals("Stage2-3"))
             return "<size=75>洞窟</size>(유적내부)";
+        else if (name.Equals("Stage2-4"))
+            return "<size=75>洞窟</size>(유적내부)";
         else
             return "공동 묘지";
     }

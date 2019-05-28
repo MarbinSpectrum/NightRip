@@ -73,6 +73,7 @@
     <Compile Include="Assets\Script\Object\AttackScript.cs" />
     <Compile Include="Assets\Script\Object\BossScript.cs" />
     <Compile Include="Assets\Script\Object\HurtObjectScript.cs" />
+    <Compile Include="Assets\Script\Object\LightScript.cs" />
     <Compile Include="Assets\Script\Object\MonsterGenerator.cs" />
     <Compile Include="Assets\Script\Object\MonsterScript.cs" />
     <Compile Include="Assets\Script\Object\MoveSceneObject.cs" />

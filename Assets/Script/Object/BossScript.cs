@@ -473,7 +473,7 @@ public class BossScript : MonoBehaviour
                             fireballcount++;
                             patterncheck = true;
                             GameObject emp = Instantiate(slime_prefab[Random.Range(0, slime_prefab.Length)], transform.position, Quaternion.identity);
-                            emp.GetComponent<Rigidbody2D>().AddForce(new Vector2(Random.Range(-1, 1)*75, 100));
+                            emp.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 100));
                             emp.transform.parent = transform.parent;
                         }
                         else if (animator.GetCurrentAnimatorStateInfo(0).normalizedTime % 1 >= 0.8f && patterncheck)

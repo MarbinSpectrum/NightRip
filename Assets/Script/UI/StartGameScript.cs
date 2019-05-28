@@ -45,7 +45,7 @@ public class StartGameScript : MonoBehaviour
             Fade.SetFloat("Speed", -1);
             startgame = true;
         }
-        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.KeypadEnter) || Input.GetKeyDown(KeyCode.Joystick1Button2) && prologue_time > 1.5f && !startgame)
+        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.KeypadEnter) || Input.GetKeyDown(KeyCode.Joystick1Button2) && !startgame)
         {
             SoundManager.SystemOnSE(true);
             prologue_time = 0;

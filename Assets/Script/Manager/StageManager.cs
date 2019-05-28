@@ -46,6 +46,8 @@ public class StageManager : MonoBehaviour
     #region[Start]
     void Start()
     {
+        if (start_bgm)
+            SoundManager.OffBGM();
         GameManager.time = 0;
         GameManager.fadeout = true;
         player_static = player;

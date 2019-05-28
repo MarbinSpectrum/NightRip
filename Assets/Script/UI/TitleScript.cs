@@ -545,23 +545,23 @@ public class TitleScript : MonoBehaviour
     string AreaName(string name)
     {
         if(name.Equals("Stage1-0"))
-            return "<size=75>墓地</size>(무덤)";
+            return "<size=50>T</size><size=25>he Cemetery</size> 공동묘지";
         else if (name.Equals("Stage1-1"))
-            return "<size=75>洞窟</size>(동굴)";
+            return "<size=50>C</size><size=25>ave Area</size> 동굴 ";
         else if (name.Equals("Stage1-2"))
-            return "<size=75>洞窟</size>(동굴)";
+            return "<size=50>C</size><size=25>ave Area</size> 동굴밖 ";
         else if (name.Equals("Stage1-3"))
-            return "<size=75>洞窟</size>(동굴)";
+            return "<size=50>C</size><size=25>ave Area</size> 동굴밖 ";
         else if (name.Equals("Stage2-1"))
-            return "<size=75>洞窟</size>(공중유적)";
+            return "<size=50>T</size><size=25>he Ruins</size> 공중유적 ";
         else if (name.Equals("Stage2-2"))
-            return "<size=75>洞窟</size>(공중유적)";
+            return "<size=50>T</size><size=25>he Ruins</size> 공중유적 ";
         else if (name.Equals("Stage2-3"))
-            return "<size=75>洞窟</size>(유적내부)";
+            return "<size=50>T</size><size=25>he Ruins</size> 유적내부 ";
         else if (name.Equals("Stage2-4"))
-            return "<size=75>洞窟</size>(유적내부)";
+            return "<size=50>T</size><size=25>he Ruins</size> 유적내부 ";
         else
-            return "공동 묘지";
+            return "???";
     }
     #endregion
 

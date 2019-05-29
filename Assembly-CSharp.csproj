@@ -72,6 +72,7 @@
     <Compile Include="Assets\Script\Manager\StageManager.cs" />
     <Compile Include="Assets\Script\Object\AttackScript.cs" />
     <Compile Include="Assets\Script\Object\BossScript.cs" />
+    <Compile Include="Assets\Script\Object\EndingScript.cs" />
     <Compile Include="Assets\Script\Object\HurtObjectScript.cs" />
     <Compile Include="Assets\Script\Object\LightScript.cs" />
     <Compile Include="Assets\Script\Object\MonsterGenerator.cs" />
@@ -79,6 +80,7 @@
     <Compile Include="Assets\Script\Object\MoveSceneObject.cs" />
     <Compile Include="Assets\Script\Object\SignScript.cs" />
     <Compile Include="Assets\Script\Object\TriggerScript.cs" />
+    <Compile Include="Assets\Script\UI\EndingSceneScript.cs" />
     <Compile Include="Assets\Script\UI\StartGameScript.cs" />
     <Compile Include="Assets\Script\UI\TitleScript.cs" />
     <Compile Include="Assets\Script\UI\TutorialScript.cs" />

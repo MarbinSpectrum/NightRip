@@ -15,7 +15,7 @@ public class Player_Maker : MonoBehaviour
     [HideInInspector] public int player_max_hp = 1;
     int player_now_hp = 1;
 
-    Animator animator;
+    [HideInInspector] public Animator animator;
     bool attack0 = false;
     bool attack1 = false;
     bool attack2 = false;
@@ -432,6 +432,11 @@ public class Player_Maker : MonoBehaviour
         {
             stop = !stop;
             col.gameObject.SetActive(false);
+        }
+        else if (col.transform.name.Equals("Ending Trigger") && col.GetComponent<EndingScript>() && !col.GetComponent<EndingScript>().end_start)
+        {
+            col.GetComponent<EndingScript>().end_start = true;
+            col.GetComponent<EndingScript>().EnddingStart();
         }
     }
     #endregion

@@ -560,6 +560,8 @@ public class TitleScript : MonoBehaviour
             return "<size=50>P</size><size=25>aradiso</size> ";//<size=35>樂園</size>";
         else if (name.Equals("Stage2-4"))
             return "<size=50>P</size><size=25>aradiso</size> ";//<size=35>樂園</size>";
+        else if (name.Equals("Stage2-5"))
+            return "<size=50>P</size><size=25>aradiso</size> ";//<size=35>樂園</size>";
         else
             return "???";
     }

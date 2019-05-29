@@ -39,6 +39,10 @@ public class SoundManager : MonoBehaviour
     public AudioSource Area3;
     static AudioSource Area3_Sound;
 
+    [Header("엔딩 배경음")]
+    public AudioSource Ending;
+    static AudioSource Ending_Sound;
+
     [HideInInspector]
     public static bool IsBgmOff = true;
 
@@ -127,6 +131,7 @@ public class SoundManager : MonoBehaviour
         Area2_Sound = Area2;
         Area3_Sound = Area3;
         Boss1_Sound = Boss1;
+        Ending_Sound = Ending;
 
         SE_Group = SE;
 
@@ -244,6 +249,20 @@ public class SoundManager : MonoBehaviour
         }
         else
             Area3_Sound.Stop();
+    }
+    #endregion
+
+    #region[엔딩 배경음]
+    public static void EndBGM(bool onoff)
+    {
+        if (!Ending_Sound) return;
+        if (onoff)
+        {
+            Ending_Sound.Play();
+            IsBgmOff = false;
+        }
+        else
+            Ending_Sound.Stop();
     }
     #endregion
 

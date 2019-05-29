@@ -2661,10 +2661,10 @@ MonoBehaviour:
   - {fileID: 2099824769}
   - {fileID: 822365872}
   level_img:
-  - {fileID: 21300050, guid: df36a377349767e4ea4c049adbf38b5e, type: 3}
-  - {fileID: 21300000, guid: 32592edda82bce041a3459010feb2462, type: 3}
-  - {fileID: 21300036, guid: 50e162e1551588348969f0b004ebc9b7, type: 3}
-  - {fileID: 21300000, guid: 115872f2923645344987bec1d5fbb63d, type: 3}
+  - {fileID: 21300000, guid: 4e7709a3ba6d1df449eee626bf712781, type: 3}
+  - {fileID: 21300000, guid: 2a4ada3e88679794682d6135cc085efe, type: 3}
+  - {fileID: 21300000, guid: 18255c7a4ffcf874d8abba602d2b3847, type: 3}
+  - {fileID: 21300000, guid: 2045d72e8f22e8f40b59132212554bac, type: 3}
   player_ani: {fileID: 741325073}
 --- !u!1 &904523102
 GameObject:

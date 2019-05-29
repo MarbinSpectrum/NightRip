@@ -546,6 +546,7 @@ public class TitleScript : MonoBehaviour
     {
         if(name.Equals("Stage1-0"))
             return "<size=50>I</size><size=25>nferno</size> <size=35>地獄></size>";
+            return "<size=50>I</size><size=25>nferno</size> <size=35>地獄</size>";
         else if (name.Equals("Stage1-1"))
             return "<size=50>P</size><size=25>urgatory</size> <size=35>燃獄</size>";
         else if (name.Equals("Stage1-2"))

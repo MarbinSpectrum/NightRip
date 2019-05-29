@@ -545,21 +545,21 @@ public class TitleScript : MonoBehaviour
     string AreaName(string name)
     {
         if(name.Equals("Stage1-0"))
-            return "<size=50>T</size><size=25>he Cemetery</size> 공동묘지";
+            return "<size=50>I</size><size=25>nferno</size> <size=35>地獄></size>";
         else if (name.Equals("Stage1-1"))
-            return "<size=50>C</size><size=25>ave Area</size> 동굴 ";
+            return "<size=50>P</size><size=25>urgatory</size> <size=35>燃獄</size>";
         else if (name.Equals("Stage1-2"))
-            return "<size=50>C</size><size=25>ave Area</size> 동굴밖 ";
+            return "<size=50>P</size><size=25>urgatory</size> <size=35>燃獄</size>";
         else if (name.Equals("Stage1-3"))
-            return "<size=50>C</size><size=25>ave Area</size> 동굴밖 ";
+            return "<size=50>P</size><size=25>urgatory</size> <size=35>燃獄</size>";
         else if (name.Equals("Stage2-1"))
-            return "<size=50>T</size><size=25>he Ruins</size> 공중유적 ";
+            return "<size=50>T</size><size=25>urris </size> <size=50>B</size><size=25>abel</size> <size=35>蒼天塔</size>";
         else if (name.Equals("Stage2-2"))
-            return "<size=50>T</size><size=25>he Ruins</size> 공중유적 ";
+            return "<size=50>T</size><size=25>urris </size> <size=50>B</size><size=25>abel</size> <size=35>蒼天塔</size>";
         else if (name.Equals("Stage2-3"))
-            return "<size=50>T</size><size=25>he Ruins</size> 유적내부 ";
+            return "<size=50>P</size><size=25>aradiso</size> <size=35>樂園</size>";
         else if (name.Equals("Stage2-4"))
-            return "<size=50>T</size><size=25>he Ruins</size> 유적내부 ";
+            return "<size=50>P</size><size=25>aradiso</size> <size=35>樂園</size>";
         else
             return "???";
     }

@@ -365,22 +365,17 @@ public class Player_Maker : MonoBehaviour
             axisInUse1 = false;
         }
         if (stop) return;
-        if ((Input.GetKeyDown(KeyCode.D) || (Mathf.Abs(Input.GetAxisRaw("Right Trigger")) == 1 && !axisInUse1)) && !useitem && isground && !animator.GetCurrentAnimatorStateInfo(0).IsName("Player_Roll"))
+        if ((Input.GetKeyDown(KeyCode.D) || (Input.GetAxisRaw("Right Trigger") == 1 && !axisInUse1)) && !useitem && isground && !animator.GetCurrentAnimatorStateInfo(0).IsName("Player_Roll"))
         {
             axisInUse1 = true;
             roll = true;
             if (Input.GetAxisRaw("Horizontal") == 0)
-            {
                 rolldic = Input.GetAxisRaw("Horizontal Trigger") < 0 ? -1 : Input.GetAxisRaw("Horizontal Trigger") > 0 ? +1 : spriterenderer.flipX ? -1 : +1;
-            }
             else if (Input.GetAxisRaw("Horizontal Trigger") == 0)
-            {
                 rolldic = Input.GetAxisRaw("Horizontal") < 0 ? -1 : Input.GetAxisRaw("Horizontal") > 0 ? +1 : spriterenderer.flipX ? -1 : +1;
-            }
-            if (Input.GetAxisRaw("Horizontal") == 0 && Input.GetAxisRaw("Horizontal Trigger") == 0)
-            {
-                rolldic = Input.GetAxisRaw("Right Trigger") > 0 ? 1 : Input.GetAxisRaw("Right Trigger") < 0 ? -1 : rolldic;
-            }
+           /* if (Input.GetAxisRaw("Horizontal") == 0 && Input.GetAxisRaw("Horizontal Trigger") == 0)
+                rolldic = Input.GetAxisRaw("Right Trigger") > 0 ? 1 : Input.GetAxisRaw("Right Trigger") < 0 ? -1 : rolldic;*/
+
             spriterenderer.flipX = (rolldic == -1) ? true : (rolldic == +1) ? false : spriterenderer.flipX;
         }
     }

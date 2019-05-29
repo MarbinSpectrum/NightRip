@@ -41012,7 +41012,7 @@ MonoBehaviour:
     type: 3}
   Effectanager_prefab: {fileID: 1009128216032331609, guid: 9ddaec4cce11db74faaf4663fb1d7d83,
     type: 3}
-  stage_name: "<size=100>\r\nT</size><size=50>\rhe Ruins</size>\n <size=35>(\uC720\uC801\uB0B4\uBD80)</size>"
+  stage_name: "<size=100>P</size><size=75>\raradiso</size><size=75>(\uF914\u5712)</size>"
   start_scene: 1
   start_bgm: 1
   map_n: 2
@@ -45976,35 +45976,35 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: -4
       objectReference: {fileID: 0}
+    - target: {fileID: 3569150506976985694, guid: e820397087d31fd4ea1cc9f12859e4f4,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 15d659bc6e8ab64438a8742661d06f91, type: 2}
+    - target: {fileID: 3569150506976985694, guid: e820397087d31fd4ea1cc9f12859e4f4,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3569150506980351796, guid: e820397087d31fd4ea1cc9f12859e4f4,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 15d659bc6e8ab64438a8742661d06f91, type: 2}
+    - target: {fileID: 3569150506980351796, guid: e820397087d31fd4ea1cc9f12859e4f4,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 3569150506599180809, guid: e820397087d31fd4ea1cc9f12859e4f4,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
       value: -0.00799942
       objectReference: {fileID: 0}
-    - target: {fileID: 3569150506976985694, guid: e820397087d31fd4ea1cc9f12859e4f4,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 15d659bc6e8ab64438a8742661d06f91, type: 2}
-    - target: {fileID: 3569150506976985694, guid: e820397087d31fd4ea1cc9f12859e4f4,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: -4
-      objectReference: {fileID: 0}
     - target: {fileID: 3569150506976985695, guid: e820397087d31fd4ea1cc9f12859e4f4,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
       value: -0.00799942
-      objectReference: {fileID: 0}
-    - target: {fileID: 3569150506980351796, guid: e820397087d31fd4ea1cc9f12859e4f4,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 15d659bc6e8ab64438a8742661d06f91, type: 2}
-    - target: {fileID: 3569150506980351796, guid: e820397087d31fd4ea1cc9f12859e4f4,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 3569150506980351797, guid: e820397087d31fd4ea1cc9f12859e4f4,
         type: 3}

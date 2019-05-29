@@ -22512,7 +22512,7 @@ MonoBehaviour:
     type: 3}
   Effectanager_prefab: {fileID: 1009128216032331609, guid: 9ddaec4cce11db74faaf4663fb1d7d83,
     type: 3}
-  stage_name: "<size=100>\r\nC</size><size=50>\rave Area</size>\n <size=35>(\uB3D9\uAD74\uBC16)</size>"
+  stage_name: "<size=100>\r\nP</size><size=75>\rurgatory</size><size=75>(\u71C3\u7344)</size>"
   start_scene: 1
   start_bgm: 0
   map_n: 0

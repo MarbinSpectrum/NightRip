@@ -165,6 +165,7 @@ public class GameManager : MonoBehaviour
 
     bool axisInUse1 = false;
     bool axisInUse2 = false;
+    bool axisInUse3 = false;
     #endregion
 
     #region[Awake]
@@ -589,6 +590,10 @@ public class GameManager : MonoBehaviour
     }
     void ChangeItem()
     {
+        if (Input.GetAxisRaw("Right Trigger") == 0)
+        {
+            axisInUse3 = false;
+        }
         if (Time.timeScale != 0 && StageManager.player_static)
         {
             if (Equip_Item == Item.없음)
@@ -604,19 +609,20 @@ public class GameManager : MonoBehaviour
             }
             else if (Equip_Item == Item.회복포션)
             {
-                if (Input.GetKeyDown(KeyCode.Q) || Input.GetKeyDown(KeyCode.Joystick1Button4) || Input.GetKeyDown(KeyCode.Joystick1Button5))
+                if (Input.GetKeyDown(KeyCode.Q) || (Input.GetAxisRaw("Right Trigger") == -1 && !axisInUse3))
                 {
+                    axisInUse3 = true;
                     if (Has_Item.Item1_Has)
                     {
                         Equip_Item = Item.응급처치키트;
-                        Debug.Log("");
                     }
                 }
             }
             else if (Equip_Item == Item.응급처치키트)
             {
-                if (Input.GetKeyDown(KeyCode.Q) || Input.GetKeyDown(KeyCode.Joystick1Button4) || Input.GetKeyDown(KeyCode.Joystick1Button5))
+                if (Input.GetKeyDown(KeyCode.Q) || (Input.GetAxisRaw("Right Trigger") == -1 && !axisInUse3))
                 {
+                    axisInUse3 = true;
                     if (Has_Item.Item0_Has)
                     {
                         Equip_Item = Item.회복포션;

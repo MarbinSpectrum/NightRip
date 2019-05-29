@@ -78,7 +78,7 @@ public class StageManager : MonoBehaviour
             camera.transform.position = new Vector3(TitleScript.load_location.x, TitleScript.load_location.y, camera.transform.position.z);
             TitleScript.load_location = Vector3.zero;
             GameManager.Has_Item.Item0_num = GameManager.Has_Item.Item0_maxnum;
-            GameManager.PlayTime = TitleScript.play_time;
+            GameManager.PlayTime = GameManager.PlayTime < TitleScript.play_time ? TitleScript.play_time : GameManager.PlayTime;
             start_scene = true;
             start_bgm = true;
             TitleScript.play_time = 0;

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4682716476804796263}
   - component: {fileID: 4275980272917220892}
   m_Layer: 9
-  m_Name: Trigger
+  m_Name: EnterTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_Size: {x: 0.04, y: 0.04}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!61 &4682716476804796263
@@ -120,3 +120,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TriggerList: []
+  Awake_Trigger_Obj: {fileID: 0}
+  this_type: 0
+  bossbgm: 0
+  bossname: 
+  bosshp: 0
+  vibration: 0
+  stopbgm: 0
+  delay: 0

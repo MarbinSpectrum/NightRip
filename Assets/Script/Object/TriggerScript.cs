@@ -13,7 +13,7 @@ public class TriggerScript : MonoBehaviour
     public GameObject Awake_Trigger_Obj;
 
     public enum Type{enter , onoff , awake};
-
+    
     [Header("발동종류")]
     public Type this_type;
 
@@ -21,6 +21,7 @@ public class TriggerScript : MonoBehaviour
     public bool bossbgm;
     public string bossname;
     public int bosshp;
+
     [Header("진동여부")]
     public bool vibration;
 

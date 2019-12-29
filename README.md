@@ -8,3 +8,5 @@
 ![Attack](./Image/Attack.gif)
 ![Arrow](./Image/Arrow.gif)
 ![Potion](./Image/Potion.gif)
+
+<플레이 영상 : https://www.youtube.com/watch?v=pSGuGgblZEk&t=70s>

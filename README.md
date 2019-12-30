@@ -30,10 +30,8 @@
 <h3>조작</h3>
 <table border="0">
 	<tr  align ="center">
-		<h5>
-		<td>PC 버전 조작</td>
-		<td>XBOX 버전 조작</td>
-		</h5>
+		<td><h5>PC 버전 조작</h5></td>
+		<td><h5>XBOX 버전 조작</h5></td>
 	</tr>
 	<tr>
 	    <td>
@@ -60,7 +58,7 @@
 			<tr>
 	    			<td>이동 : LStick </td>
 	    			<td>점프 : A </td>
-				<td>회피 : RT, </td>
+				<td>회피 : RT </td>
 			</tr>
 			<tr>
 	    			<td>공격 : X </td>

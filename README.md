@@ -29,19 +29,53 @@
 
 <h3>조작</h3>
 <table border="0">
-	<tr>
-	    <td>이동 : 방향키 </td>
-	    <td>점프 : Space</td>
+	<tr  align ="center">
+		<h5>
+		<td>PC 버전 조작</td>
+		<td>XBOX 버전 조작</td>
+		</h5>
 	</tr>
 	<tr>
-	    <td>공격 : A </td>
-	    <td>화살 : S</td>
+	    <td>
+		    <table border="0">
+			<tr>
+	    			<td>이동 : 방향키 </td>
+	    			<td>점프 : Space </td>
+				<td>회피 : D </td>
+			</tr>
+			<tr>
+	    			<td>공격 : A </td>
+	    			<td>화살 : S </td>
+				<td> </td>			
+			</tr>
+  			<tr>
+				<td>아이템 사용 : F </td>
+	    			<td>아이템 교체 : Q </td>
+				<td>메뉴 : ESC </td>
+			</tr>
+    		    </table>
+	    </td>
+	    <td>
+		    <table border="0">
+			<tr>
+	    			<td>이동 : LStick </td>
+	    			<td>점프 : A </td>
+				<td>회피 : RT, </td>
+			</tr>
+			<tr>
+	    			<td>공격 : X </td>
+	    			<td>화살 : B </td>
+				<td> </td>			
+			</tr>
+  			<tr>
+				<td>아이템 사용 : Y </td>
+	    			<td>아이템 교체 : LT </td>
+				<td>메뉴 : Back </td>
+			</tr>
+    	            </table>
+	    </td>
 	</tr>
-  	<tr>
-	    <td>아이템 변경 : Q </td>
-	    <td>일시정지 : ESC</td>
-	</tr>
-    </table>
+</table>
 
 
 <플레이 영상 : https://www.youtube.com/watch?v=pSGuGgblZEk&t=70s>

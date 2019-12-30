@@ -1,6 +1,8 @@
 # NightRip
 <h2>모모도라 팬게임</h2>
 
+<플레이 영상 : https://www.youtube.com/watch?v=pSGuGgblZEk&t=70s>
+
   학교과제로 만들었습니다.
 
 <img src="./Image/Title.png" width="100%">
@@ -77,5 +79,3 @@
 
 <h1> ※ Game 파일에 게임이 들어있어요!! ※ </h1>
 
-
-<플레이 영상 : https://www.youtube.com/watch?v=pSGuGgblZEk&t=70s>

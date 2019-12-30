@@ -75,7 +75,7 @@
 	</tr>
 </table>
 
-<h1>※ Game 파일에 게임이 들어있어요. ※</h1>
+<h1> ※ Game 파일에 게임이 들어있어요!! ※ </h1>
 
 
 <플레이 영상 : https://www.youtube.com/watch?v=pSGuGgblZEk&t=70s>
